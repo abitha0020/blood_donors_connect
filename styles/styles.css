@@ -243,20 +243,19 @@ nav a {
 
 /* Registration Section Styles */
 #registration {
-  background-color: #f4f4f4;
-  padding: 50px;
-  text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+  }
+
+#registration h2 {
+    font-size: 2rem; /* Increase font size for the heading */
+    margin-bottom: 20px;
 }
 
-/* Testimonials Section Styles */
-#testimonials {
-  padding: 50px;
-  text-align: center;
-}
-
-#testimonials div {
-  display: flex;
-  justify-content: space-around;
+#registration p {
+    font-size: 1.2rem; /* Increase font size for the paragraph */
+    margin-bottom: 30px;
 }
 
 /* About Us Section Styles */
@@ -265,16 +264,26 @@ nav a {
   padding: 50px;
   text-align: center;
 }
-
+#about-us p {
+    font-size: 1.2rem; /* Font size for regular paragraphs */
+    line-height: 1.6; /* Adjust line height for better readability */
+    color: #555; /* Text color */
+    margin-bottom: 20px;
+}
+#about-us h2 {
+    font-size: 2rem; /* Increase font size for the heading */
+    margin-bottom: 20px;
+}
 /* Contact Section Styles */
 #contact {
   padding: 50px;
   text-align: center;
+  background-color:#f4f4f4 ;
 }
 
 /* Footer Section Styles */
 footer {
-  background-color: #333;
+  background-color: rgb(183, 62, 19);
   color: #fff;
   padding: 20px;
   display: flex;
